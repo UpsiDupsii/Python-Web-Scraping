@@ -19,7 +19,7 @@ spans = soup.find_all('span', class_ = "doctor-name info")
 
 for span in spans:
     print(span.text)
-    data["Name"].append(span.text)
+    data["Name"].append(span.text) 
   
     
 #code to scrape expertise of doctors
